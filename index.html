@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/4568b3d22a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/aryan2.png" class="logo" />
+          <ul id=sidemenu>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hey, I am <span>Aryan</span> from India</h1>
+        </div>
+        <!-- <div class="hi">
+          <img src="images/hi.png">
+        </div> -->
+      </div>
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/man.avif" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet recusandae dolorem excepturi sapiente minus ullam,
+                atque, itaque voluptatem quibusdam deserunt similique tempora
+                provident jjaut quas tempore at repellendus accusantium libero.
+              </p>
+
+              <div class="row">
+                <div class="col-1">
+                  <p class="tab-links active-link">Skills</p>
+                  <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BOOTSTRAP</li>
+                    <li>JAVASCRIPT</li>
+                  </ul>
+                </div>
+                <div class="col-2">
+                  <p class="tab-links active-link">Education</p>
+                  <ul>
+                    <li>JEE MAIN QUALIFIED</li>
+                    <li>JEE ADVANCED QUALIFIED</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="work">
+        <div class="container">
+          <h1 class="sub-title">MY WORK</h1>
+          <div class="work-list">
+            <div class="w">
+             <a href="https://teddy1404.github.io/mangaseller/" target="_blank"><img src="images/manga1.png" width="100%"></a> 
+        
+            </div>
+            <div class="w">
+              <img src="images/TINDOG.png" width="100%" >
+              
+            </div>
+            <div class="w">
+              <img src="images/dicegame.png" width="100%" >
+            </div>
+            <div class="w">
+              <img src="images/paymentform.png" width="100%" >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-phone"></i>7865678909</p>
+              <p><i class="fa-solid fa-envelope"></i>aryansinghchandel1404@gmail.com</p>
+              <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter" ></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              <a href="" class="btn btn-2">Download CV</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="You Message"></textarea>
+                <button type="submit" class="btn btn-2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+   <div class="copyright">
+    <p>copyright @ aryan. Shines like a <i class="fa-solid fa-star"></i></p>
+   </div>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </div>
+  
+  </body>
+
+  <script src="index.js"></script>
+</html>
